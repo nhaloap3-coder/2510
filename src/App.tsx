@@ -12,6 +12,9 @@ import Chitietsanpham from "./Chitietsanpham";
 import ListProducts from "./ListProducts";
 
 // @ts-ignore
+import Prductdetail from "./ProductDetail";
+
+// @ts-ignore
 import ListProducts_SP from "./ListProducts_SP";
 
 // @ts-ignore
@@ -29,6 +32,7 @@ export default function App() {
           <Route index element={<ListProducts_SP />} />
           <Route path="trang1" element={<Trang1 />} />
           <Route path="sanpham/:id" element={<Chitietsanpham />} />
+          <Route path="detail/:id" element={<Prductdetail />} />
           <Route path="trang2" element={<Trang2 />} />
         </Route>
       </Routes>
