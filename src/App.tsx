@@ -25,6 +25,8 @@ import ListProducts_SP_Admin from "./ListProducts_SP_Admin";
 // @ts-ignore
 import EditProduct from "./EditProduct";
 
+import ChatPage from "./ChatPage"; // ✅ Import trang Chat
+
 // --- IMPORT MỚI CHO GIỎ HÀNG ---
 import { CartProvider } from "./CartContext"; // Context vừa sửa ở Bước 1
 import CartPage from "./CartPage"; // Trang hiển thị giỏ hàng (Xem bước 3)
@@ -41,6 +43,8 @@ export default function App() {
 
             {/* ✅ 2. Thêm Route cho Giỏ Hàng */}
             <Route path="cart" element={<CartPage />} />
+
+            <Route path="chat" element={<ChatPage />} />
 
             <Route path="trang1" element={<Trang1 />} />
             <Route path="trang2" element={<Trang2 />} />

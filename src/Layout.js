@@ -62,8 +62,8 @@ const Layout = () => {
 
           <div id="menubar" className="menubar">
             <div className="menubar-left">
-              <a href="/menu1" className="menu-item">
-                Menu 1
+              <a href="/chat" className="menu-item">
+                Chat với AI
               </a>
               <a href="/menu2" className="menu-item">
                 Menu 2
